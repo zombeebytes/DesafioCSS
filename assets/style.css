@@ -1,0 +1,249 @@
+* {
+    padding: 0 auto;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.body {
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000;
+    margin: 0 auto;
+    width: 80vw;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 10px;
+    font: size 20px;
+    letter-spacing: 1px;
+
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    width: 80vw;
+    background-color: #3a53e3;
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 2px 2px 6px;
+    font-size: 2rem;
+    color: white;
+    padding: 2.50rem 1.7rem;
+}
+
+nav a {
+    .titulo {
+        color: white;
+        letter-spacing: 4px;
+        font-weight: 750;
+    }
+}
+
+a:hover {
+    text-shadow: 0 0 4px;
+    color: grey;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a {
+    color: white;
+    font-size: 20px;
+    text-align: end;
+}
+
+.titulo {
+    font-size: 32;
+}
+
+ul {
+    align-items: center;
+    gap: 16px;
+    display: flex;
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    width: 60px;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logopagina {
+    width: 80px;
+    padding-left: 1rem;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+#sobre {
+    display: flex;
+    padding-inline: 2rem;
+    align-items: center;
+    background-color: #faca53;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.foto {
+    width: 250px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.video {
+    width: 60vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    display: block;
+    text-align: center;
+}
+
+.videotitle {
+    text-align: center;
+}
+
+.redes_sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+footer {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0;
+    width: 80vw;
+    background-color: #29282B;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 50px;
+    padding: 0;
+}
+
+.by {
+    display: flex;
+    font-size: 16px;
+    color: antiquewhite;
+}
+
+#contato {
+    margin: 0 auto;
+    display: flex;
+    gap: 4rem;
+    width: 80vw;
+
+
+}
+
+hr {
+    margin: 3.80rem;
+}
+
+#formulario_mensagem {
+
+    margin: 0 auto;
+    width: 60vw;
+
+
+}
+
+#formulario_buscacep {
+    margin: 0 auto;
+    width: 40vw;
+
+}
+
+.campos-form {
+    margin: 0 auto;
+}
+
+#txtNome,
+#txtEmail,
+#txtMensagem,
+#txtCep {
+    font-size: 16px;
+    padding: 0.5rem 0rem;
+
+}
+
+label {
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+
+}
+
+input,
+textarea,
+button {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: darkblue;
+
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid orange;
+}
+
+input,
+textarea {
+    border: 1px solid orange;
+}
+
+button {
+    background-color: #3a53e3;
+    color: white;
+    font-weight: bolder;
+    border: 1px;
+}
+
+button:hover {
+    color: yellow;
+    background-color: #3a53e3;
+}

@@ -5,20 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="assets/images/lara.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
     <title>Portfólio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+        
+
 </head>
 
-<body>
+<body class="body">
 
     <nav>
-        <div>
-            <img src="assets/images/lara.png" alt="Logo">
-            <span>Portfólio da Lara</span>
+        <div class="logo">
+            <img class="logopagina"
+                src="assets/images/184-1843032_kawaii-cute-little-hearts-stickers-sticker-png-adorable.png" alt="Logo" height="80" width="80">
+            <span class="titulo">Portfólio da Andressa</span>
         </div>
 
-        <ul>
+        <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="#perfil">Sobre</a></li>
             <li><a href="#video">Vídeo</a></li>
@@ -27,9 +33,9 @@
     </nav>
 
     <main>
-        <h1>Sobre a Lara:</h1>
-        <section>
-            <div>
+        <h1>Sobre mim:</h1>
+        <section id="sobre">
+            <div class="texto">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores architecto modi voluptates
                     perspiciatis? Quasi magnam totam veniam incidunt rerum delectus, perspiciatis sunt ab! At
                     repellendus voluptatibus earum recusandae nihil distinctio consequatur! Eum ducimus repellat eius
@@ -46,28 +52,32 @@
                     voluptate repudiandae numquam facere laudantium nesciunt optio beatae? Numquam accusamus laudantium
                     tempora enim optio.</p>
             </div>
-            <img src="assets/images/larac.gif" alt="Foto da Lara">
+            <img class="foto" src="assets/images/WhatsApp Image 2024-02-08 at 10.25.02 AM.jpeg" alt="Minha foto" height="230px" width="230px">
         </section>
-        <h1>Vídeo:</h1>
-        <section>
-            <h2>Pitch Pessoal</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dlER2xdnn50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1 id="video_motivacional">Vídeo:</h1>
+        <section id="video">
+            <h2 class="videotitle">Video de musica que eu gosto</h2>
+            <iframe class="video" width="560" height="315"
+                src="https://www.youtube.com/embed/YhLm4JgXd5Q?si=XS9wrrE16QPZ2j3G" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </section>
     </main>
 
     <footer>
-        <div>
-            <a href="http://linkedin.com" target="_blank">
-                <img src="assets/images/linkedin.png" alt="Linkedin">
+        <div class="redes_sociais">
+            <a href="http://linkedin.com/in/andressa-patricio" target="_blank">
+                <img class="icon" src="assets/images/linkedin.png" alt="Linkedin">
             </a>
-            <a href="http://github.com" target="_blank">
-                <img src="assets/images/github.png" alt="Github">
+            <a href="http://github.com/zombeebytes" target="_blank">
+                <img class="icon" src="assets/images/github.png" alt="Github">
             </a>
-            <a href="http://instagram.com" target="_blank">
-                <img src="assets/images/instagram.png" alt="Instagram">
+            <a href="https://www.instagram.com/xkillabeez/" target="_blank">
+                <img class="icon" src="assets/images/instagram.png" alt="Instagram">
             </a>
         </div>
-        <p>Desenvolvido por: Liza Hainna - 2024 &copy;</p>
+        <p class="by">Desenvolvido por: Andressa Patricio - 2024 &copy;</p>
     </footer>
 
 </body>

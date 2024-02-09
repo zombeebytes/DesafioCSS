@@ -5,28 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="assets/images/lara.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Portfólio</title>
 </head>
 
-<body>
+<body class="body">
 
     <nav>
-        <div>
-            <img src="assets/images/lara.png" alt="Logo">
-            <span>Portfólio da Lara</span>
+        <div class="logo">
+            <img class="logopagina" src="assets/images/184-1843032_kawaii-cute-little-hearts-stickers-sticker-png-adorable.png" alt="Logo"height="80" width="80">
+            <span class="titulo">Portfólio da Andressa</span>
         </div>
 
-        <ul>
+        <ul id="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
 
 
-    <main>
-        <section>
+    <main id="contato">
+        <section id="formulario_mensagem">
             <h3>Contato</h2>
                 <form>
                     <div class="campos-form">
@@ -60,8 +60,8 @@
 
         <section id="formulario_buscacep">
             <h3>Consultar CEP</h3>
-            <div>
-                <div>
+            <div class="endereco">
+                <div class="campos-form">
                     <label for="cep">CEP:</label>
                     <input onkeyup="validarCep()" id="cep" name="cep" type="text" placeholder="Digite o número do CEP">
                     <div id="txtCep"></div>
@@ -81,17 +81,17 @@
 
     <footer>
         <div >
-            <a href="http://linkedin.com" target="_blank">
-                <img src="assets/images/linkedin.png" alt="Linkedin">
+            <a href="http://linkedin.com/in/andressa-patricio" target="_blank">
+                <img class="icon" src="assets/images/linkedin.png" alt="Linkedin">
             </a>
-            <a href="http://github.com" target="_blank">
-                <img src="assets/images/github.png" alt="Github">
+            <a href="http://github.com/zombeebytes" target="_blank">
+                <img class="icon" src="assets/images/github.png" alt="Github">
             </a>
-            <a href="http://instagram.com" target="_blank">
-                <img src="assets/images/instagram.png" alt="Instagram">
+            <a href="http://instagram.com/xkillabeez" target="_blank">
+                <img class="icon" src="assets/images/instagram.png" alt="Instagram">
             </a>
         </div>
-        <p>Desenvolvido por: Liza Hainna - 2024 &copy;</p>
+        <p class="by">Desenvolvido por: Andressa Patricio - 2024 &copy;</p>
     </footer>
     <script src="./assets/js/scripts.js"></script>
 </body>
